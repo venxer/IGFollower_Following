@@ -4,8 +4,7 @@
 
 Reads through the following JSON files:
 
-userData\follwers_and_following\followers_1.json
+	userData\follwers_and_following\followers_1.json
+	userData\follwers_and_following\following.json
 
-userData\follwers_and_following\following.json
-
-Returns a list of following who does not follow the user back.
+Returns a list of accounts who the user follows but the account does not follow the user back.
